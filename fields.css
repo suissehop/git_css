@@ -1,0 +1,120 @@
+
+/* Wrapper for all fields. */
+.field {}
+
+/* Field labels are h2 in Adaptivetheme */
+.field .field-label {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: inherit;
+  margin: 0;
+}
+.field-lable-above .field-label {}
+.field-lable-inline .field-label {
+  display: inline;
+}
+
+/* Imagefields */
+article .field-type-image {
+	float: left;
+	margin-right: 20px;
+	display:inline;}
+	
+.field-type-image img {}
+
+/* Use "datetime" when creating new CCK date fields. */
+.field-type-datetime {}
+
+/* Filefield field. */
+.field-type-filefield {}
+
+/* Node reference field. */
+.field-type-nodereference {}
+
+/* User reference field. */
+.field-type-userreference {}
+
+/* Number fields. */
+.field-type-number-decimal {}
+.field-type-number-float   {}
+.field-type-number-integer {}
+
+/* Text fields. */
+.field-type-text {}
+.field-type-text-long {}
+
+/* Term reference fields. */
+section.field-type-taxonomy-term-reference{
+padding-left:40px;
+dsiplay:inline;
+}
+
+.field-type-taxonomy-term-reference .field-label {
+  font-size: 1em;
+}
+.field-type-taxonomy-term-reference ul {
+  margin: 0;
+  padding: 0;
+}
+.field-type-taxonomy-term-reference ul li {
+  margin-left: 2px!important;
+  display: inline;
+  list-style: none;
+  padding: 0px 10px;
+  background: #AAD5BF;
+  border: 1px solid #82AD58;
+color: white;
+text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+background-color: #AAD5BF;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#AAD5BF),to(#81C1A1));
+background-image: -webkit-linear-gradient(top,#AAD5BF,#81C1A1);
+background-image: -moz-linear-gradient(top,#AAD5BF,#81C1A1);
+background-image: -ms-linear-gradient(top,#AAD5BF,#81C1A1);
+background-image: -o-linear-gradient(top,#AAD5BF,#81C1A1);
+background-image: linear-gradient(top,#AAD5BF,#81C1A1);
+    
+}
+
+.field-type-taxonomy-term-reference ul li:hover{
+
+text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+background-color: #82AD58;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#82AD58),to(#81C1A1));
+background-image: -webkit-linear-gradient(top,#82AD58,#81C1A1);
+background-image: -moz-linear-gradient(top,#4d90fe,#81C1A1);
+background-image: -ms-linear-gradient(top,#4d90fe,#81C1A1);
+background-image: -o-linear-gradient(top,#4d90fe,#81C1A1);
+background-image: linear-gradient(top,#82AD58,#81C1A1);
+    
+}
+
+
+.field-type-taxonomy-term-reference ul li a{
+ color:white;
+ text-transform:uppercase;
+font:11px/15px "helvetica", Arial, sans-serif;; text-decoration:none;
+ letter-spacing:2px;
+    
+}
+
+/* Imagefield skinr settings */
+.ai-l .field-type-image {
+  margin: 4px 20px 10px 0;
+}
+.ai-r .field-type-image {
+  margin: 4px 0 10px 20px;
+} 
+.ai-b,
+.ai-b .block-inner,
+.ai-b .block-content {}
+.ai-b .block-content p,
+.ai-b .block-content div.field-type-image {}
+
+article .field-type-text-with-summary {
+padding-left:230px;
+}
+section.field-type-taxonomy-term-reference .field-label{
+display: inline;
+margin-left:10px
+}
+
